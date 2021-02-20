@@ -23,8 +23,7 @@ cd karte
 yarn
 yarn start
 ```
-
-- Naver Style.json 파일 부재.
+- Style.json 파일 / icon 이미지 등은 저작권 문제로 소스코드에 포함하지 않는다.
 
 ### Project Specification
 
