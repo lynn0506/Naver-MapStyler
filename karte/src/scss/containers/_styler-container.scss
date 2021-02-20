@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+%sider-header {
+  padding: 12px 25px;
+  height: 46px;
+  z-index: 3;
+  position: fixed;
+  background: #FBFBFB;
+  
+  border: {
+    right: 1px solid #EEEEEE; 
+    bottom: 1px solid #EEEEEE;
+  }
+
+  .sider-header-icon {
+    width: 20px;
+    margin-right: 5px;
+  }
+}
+
+.sider-container {
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+
+  .half-header {
+    @extend %sider-header;
+    width: 200px;
+  }
+
+  .full-header {
+    @extend %sider-header;
+    width: 500px;
+  }
+}

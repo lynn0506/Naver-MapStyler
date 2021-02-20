@@ -1,0 +1,20 @@
+%item {
+  padding: 6px 20px;
+  border-bottom: none !important;
+}
+
+.item {
+  @extend %item;
+  .ant-list-item-meta-title {
+    color: rgba(0, 0, 0, 0.45) !important; 
+  }
+}
+
+.selected-item {
+  @extend %item;
+  background-color: #E6F7FF;
+  
+  .ant-list-item-meta-title {
+    color:#2C78EA !important; 
+  }
+}

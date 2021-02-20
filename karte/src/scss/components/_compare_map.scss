@@ -1,0 +1,83 @@
+.compare-map {
+	&-container {
+		width: 100vw;
+		height: 100vh;
+	}
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+}
+
+.compare-map-text {
+  position: absolute;
+  top: 53%;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  padding-top: 5px;
+
+  background-color: #ffffff;
+  z-index: 10;
+
+	text-align: center;
+	font-size: small;
+	color: #1A417B;
+	
+  animation: fadeout 3s;
+  -moz-animation: fadeout 3s; /* Firefox */
+  -webkit-animation: fadeout 3s; /* Safari and Chrome */
+  -o-animation: fadeout 3s; /* Opera */
+	animation-fill-mode: forwards;
+
+	-ms-user-select: none; 
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@keyframes fadeout {
+  0% {
+      opacity: 1;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+@-moz-keyframes fadeout { /* Firefox */
+  0% {
+      opacity: 1;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */
+  0% {
+      opacity: 1;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+@-o-keyframes fadeout { /* Opera */
+  0% {
+      opacity: 1;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  100% {
+      opacity: 0.2;
+  }
+}

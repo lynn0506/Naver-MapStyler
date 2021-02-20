@@ -1,0 +1,25 @@
+@import 'base/app';
+
+@import 
+	'containers/button-container',
+	'containers/export-container',
+  'containers/feature-sider',
+  'containers/history-container',
+  'containers/layer-property-sider',
+  'containers/mapview-container',
+  'containers/search-map-container',
+  'containers/styler-container';
+
+@import
+  'components/color-input',
+  'components/color-property',
+  'components/compare_map',
+  'components/export-button', 
+  'components/history-list',
+  'components/list-item',
+  'components/map-screenshot',
+  'components/mapbox-gl-compare',
+  'components/picker-container',
+  'components/slider-input',
+  'components/text-input',
+  'components/translate-input';

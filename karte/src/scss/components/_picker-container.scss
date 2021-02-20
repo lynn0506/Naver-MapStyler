@@ -1,0 +1,39 @@
+.feature {
+  &-list {
+    width: 200px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    border-bottom: 1px solid #f0f0f0;
+
+    &-header {
+      padding: 8px 20px !important;
+      padding-right: 12px !important;
+      color: #1B5EC3;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.mapboxgl-popup-content {
+  padding: 0 !important;
+}
+
+.ant-empty.ant-empty-normal {
+  margin: 0;
+}
+
+.ant-list-empty-text {
+  padding: 10px 0;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.close-button {
+  font-size: 15px;
+}

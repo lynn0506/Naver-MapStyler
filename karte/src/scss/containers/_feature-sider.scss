@@ -1,0 +1,27 @@
+@charset 'utf-8';
+
+.feature-sider {
+  top: 46px;
+  
+  &-header {
+    position: fixed;
+    align-content: center;
+    width: 200px;
+    height: 46px;
+    padding-left: 50px;
+    
+    border: {
+      right: 1px solid #EEEEEE !important;
+      bottom: 1px solid #EEEEEE !important;
+    }
+  }
+
+  &-content {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    overflow-y: scroll;
+    margin-top: 46px;
+    padding-bottom: 110px;
+  }
+}

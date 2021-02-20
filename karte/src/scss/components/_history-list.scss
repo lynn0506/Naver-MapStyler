@@ -1,0 +1,10 @@
+.history {
+  &-list {
+    width: 330px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    border-bottom: 1px solid #f0f0f0;
+  }
+}

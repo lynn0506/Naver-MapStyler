@@ -1,0 +1,16 @@
+.export {
+	&-style {
+		overflow: auto;
+		width: 200px;
+		height: 600px;
+		padding: 10px;
+		border-style: solid;
+		border-color: #999999;
+		border-width: 1px;
+	}
+
+	&-file-button {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+}

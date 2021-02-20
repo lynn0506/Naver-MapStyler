@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+.layer-property-sider {
+  position: fixed;
+
+  margin: {
+    left: 200px;
+    top: 46px;
+  }
+
+  &-content {
+    width: 300px;
+    height: 100vh;
+    overflow-y: scroll;
+    margin-top: -16px;
+    padding-bottom: 130px;
+  }
+
+  .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+    border-right: 1px solid #EEEEEE;
+  }
+}
+
+.hidden-button {
+  display: none;
+}
+
+.close-sider-button {
+  position: absolute;
+  top: 350px;
+  left: 264px;
+}

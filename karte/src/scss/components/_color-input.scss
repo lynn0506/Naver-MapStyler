@@ -1,0 +1,39 @@
+.color {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	&-input {
+		position: relative;
+		width: 120px;
+		height: 50px;
+		left: 40px;
+	}
+}
+
+@mixin color-text {
+	position: relative;
+	left: -50px;
+	pointer-events: none;
+	font-size: small;
+}
+
+.text {
+	&-black {
+		@include color-text;
+		color: black;
+	}
+	&-white {
+		@include color-text;
+		color: white;
+	}
+	&-Fill {
+		@include color-text;
+		opacity: 0.5;
+		left: -30px;
+	}
+	&-Stroke {
+		@include color-text;
+		opacity: 0.5;
+		left: -40px;
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint"],
+	"extends": [
+		"plugin:jest/recommended",
+		"airbnb",
+		"airbnb/hooks",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:prettier/recommended",
+		"prettier/react",
+		"prettier/@typescript-eslint"
+	],
+	"rules": {
+		"react/jsx-filename-extension": [
+			1,
+			{
+				"extensions": [".tsx", ".ts"]
+			}
+		],
+		"@typescript-eslint/camelcase": "off",
+		"@typescript-eslint/explicit-function-return-type": "off",
+		"@typescript-eslint/interface-name-prefix": "off",
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-unused-expressions": "off",
+		"@typescript-eslint/no-var-requires": "off",
+		"@typescript-eslint/no-use-before-define": "off",
+		"import/extensions": "off",
+		"no-use-before-define": "off",
+		"object-curly-newline": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/prop-types": "off",
+		"react/require-default-props": "off",
+		"react/default-props-match-prop-types": "off",
+		"no-case-declarations": "off",
+		"no-unused-expressions": "off",
+		"no-shadow": "off",
+		"no-param-reassign": ["error", { "props": false }],
+		"comma-dangle": ["error", "always-multiline"]
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [".js", ".jsx", ".ts", ".tsx"]
+			}
+		}
+	}
+}

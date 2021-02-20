@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/karte/node_modules
+/karte/.pnp
+/karte/.pnp.js
+
+# testing
+/karte/coverage
+
+# production
+/karte/build
+
+# misc
+.DS_Store
+.idea/
+/karte/.DS_Store
+/karte/.env
+/karte/.env.local
+/karte/.env.development.local
+/karte/.env.test.local
+/karte/.env.production.local
+
+# eslint
+/karte/.eslintcache
+
+# react
+/karte/.DS_*
+/karte/*.log
+/karte/logs 
+/karte/**/*.backup.*
+/karte/**/*.back.*
+
+/karte/npm-debug.log*
+/karte/yarn-debug.log*
+/karte/yarn-error.log*
+
+# data 
+/karte/src/assets/images/sider-header-icon.png
+/karte/src/assets/featureSiderData.ts 
+/karte/src/assets/naverStyle.json
+/karte/public/favicon.ico
