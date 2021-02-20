@@ -22,7 +22,6 @@
 cd karte
 yarn
 yarn start
-
 ```
 
 - Naver Style.json 파일 부재.
