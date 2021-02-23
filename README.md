@@ -7,9 +7,6 @@
 
 - 심효진, 정은주
 
-### 멘토
-
-- 임병철, 이현수
 
 ### 배포 url
 
@@ -24,7 +21,8 @@ cd karte
 yarn
 yarn start
 ```
-- Style.json 파일 / icon 이미지 등은 저작권 문제로 소스코드에 포함하지 않는다.
+- naverStyle.json / featureSider.ts 파일 / icon 이미지 등은 저작권 문제로 소스코드에 포함하지 않는다.
+- Mapbox accessToken(https://docs.mapbox.com/help/how-mapbox-works/access-tokens/) 필요 
 
 ### Project Specification
 
